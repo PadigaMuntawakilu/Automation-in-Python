@@ -23,4 +23,5 @@ chart = BarChart()
 chart.add_data(values)
 sheet.add_chart(chart, "f2")
 
+wb.save("transactions2.xlsx")
 wb.save("transactions3.xlsx")
